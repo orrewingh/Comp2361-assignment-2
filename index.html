@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="Stylesheet.css">
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<div id="header">
+	<img class="floatright" src="Images/rugbylogo.png" alt="" width="90px" height="90px">
+	<h1> Rugby </h1>
+</div>
+
+<div id="nav">
+<ul>
+	<li style="font-weight:bold">Menu</li>
+	<li><a>Play</a></li>
+	<li><a>Instructions</a></li>
+	<li><a>Exit</a></li>
+</ul>		
+</div>
+
+
+
+
+
+
+<div id="footer">
+				<p><img src="Images/footer.png" width="200px" height="200px"></p>
+				<div class="leftbutton">
+				<a href="contactus.htm">Back</a>
+				</div>
+				<div class="rightbutton">
+				<a href="rugbyhistory.html">Next</a>
+				</div>
+</div>
+</body>
+
+<script>
+$(document).ready(function() {
+    $('#accordion li.content').filter(':nth-child(n+4)').addClass('hide');
+ 
+   $('ul').on('click','li.title',function() {
+      $(this).next().slideDown(200).siblings('li.content').slideUp(200);
+      })
+});
+</script>
+</html>
