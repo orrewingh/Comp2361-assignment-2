@@ -2,6 +2,7 @@
 #header{
 		background-color:#006622;
 		color:white;
+		width:100%;
 		text-align:centre;
 		padding:5px;
 }
@@ -41,8 +42,8 @@ padding: 2px;
 #section {
 		width:97%;
 		float:left;
-		padding:3%;
-		border: 0px solid #006622;
+		padding:1%%;
+		border: 10px solid #006622;
 		background-color:white;
 		text-align:left;
 		}
