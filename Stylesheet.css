@@ -45,7 +45,7 @@ padding: 2px;
 		padding:1%%;
 		border: 10px solid #006622;
 		background-color:white;
-		text-align:left;
+		text-align:center;
 		}
 #section li {
 	padding: 8px;
@@ -138,7 +138,7 @@ padding: 2px;
 		/* this is basically the same as the header but as the bottom */
 .leftbutton
 {
-background-color:#3498db;
+background-color:#ffffff;
 width:40px;
 float:left;
 text-align:center;
