@@ -1,6 +1,6 @@
 
 #header{
-		background-color:#2875A8;
+		background-color:#006622;
 		color:white;
 		text-align:centre;
 		padding:5px;
@@ -39,13 +39,24 @@ padding: 2px;
 }
 /* this div is for the logo and places it too the right and gives a border and padding */
 #section {
-		width:75%;
+		width:97%;
 		float:left;
-		padding:10px;
-		border: 10px solid #2875A8;
+		padding:3%;
+		border: 0px solid #006622;
 		background-color:white;
 		text-align:left;
 		}
+#section li {
+	padding: 8px;
+    margin-bottom: 7px;
+    background-color :#ffffff;
+    color: #000000;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+#section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 #article {
 		width:922px;
 		float:left;
@@ -68,7 +79,7 @@ padding: 2px;
 #accordion li.content {
    margin:0;
    padding: 10px;
-   border: 1px solid #efefef;
+   border: 1px solid #009933;
    background: #FFF;
    }
  
@@ -79,8 +90,8 @@ padding: 2px;
    line-height:2em;
    color:#FFF;
  
-   background: #3498db;
-   border-bottom: 1px solid #2980b9;
+   background: #009933;
+   border-bottom: 1px solid #009933;
    }
  
 #accordion .hide {
@@ -114,8 +125,9 @@ padding: 2px;
     padding: 0;
 }
 		/* these three control the nav bar and it is done in a list format*/
+
 #footer {
-		background-color:#2875A8;
+		background-color:#006622;
 		color:white;
 		clear:both;
 		text-align:centre;
