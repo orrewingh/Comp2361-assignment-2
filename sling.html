@@ -13,19 +13,21 @@
 </div>
 <!-- this is the header div which has the logo put in it it and the title fo the page -->
 
-<!-- this is the nav bar it has a link to each page and this pages link is just text in bold. -->
+
 
 <div id="section">
 <ul>
 	<li style="font-weight:bold">How to make an arm sling</li>
-	<p>Use for an injured upper arm, an injured wrist or forearm, someone who can't bend their elbow and someone with a rib fracture</p>
+	<p>Use for an injured upper arm, an injured wrist or forearm, someone who can't their elbow and someone with a rib fracture</p>
 	<p>Support their bad arm with their other hand and slide a triangular bandager underneath it with the longest edge parallel to their body</p>
+	<img src="Images/sling1.jpg" width="200px" height="350px">
 	<p>Tie the top corner to the corner by their elbow around the bad arms shoulder and around the neck</p>
 	<p>Pull the bottom hanging corner up over the bad arm and tie in a reef knot too the other two corners</p>
+	<img src="Images/sling2.jpg" width="200px" height="350px">
 	<p>Adjust sling so fits comfortably and check circulation</p>
 </ul>	
 </div>	
-
+<!--content and images-->
 <div id="footer">
 				<p><img src="Images/firstAid2.png" width="200px" height="200px"></p>
 				
@@ -42,19 +44,9 @@
 	<li><a href="bandage.html">How to put on a bandage</a></li>
 	<li><a href="handBandage.html">How to bandage a hand</a></li>
 	<li><a href="sprainBandage.html">How to bandage a sprain</a></li>
-	<li><a href="epipen.html">How to use an EpiPen</a></li>
+	<li><a href="epipen.html">How to use an EpiPEN</a></li>
 </ul>	
 </div>
 </body>
-<!-- this puts the the image in the footer and then the two buttons for going back and forward on the pages. -->
-<script>
-$(document).ready(function() {
-    $('#accordion li.content').filter(':nth-child(n+4)').addClass('hide');
- 
-   $('ul').on('click','li.title',function() {
-      $(this).next().slideDown(200).siblings('li.content').slideUp(200);
-      })
-});
-<!-- this is the script that makes the accordion work. -->
-</script>
+
 </html>

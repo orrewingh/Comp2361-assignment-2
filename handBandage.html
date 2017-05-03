@@ -13,11 +13,12 @@
 </div>
 <!-- this is the header div which has the logo put in it it and the title fo the page -->
 
-<!-- this is the nav bar it has a link to each page and this pages link is just text in bold. -->
+<!--content and images-->
 
 <div id="section">
 <ul>
 	<li style="font-weight:bold">How to bandage a hand</li>
+	<img src="Images/bandagedhand.jpg" width="200px" height="200px">
 	<p>Use a roller bandage</p>
 	<p>Start by putting end of bandage on the inside of their wrist (below the bottom of their thumb) then wrap around wrist twice</p>
 	<p>Then wrap from below bottom of thumb, up across the palm of their hand and back around the top of their hand back down to the bottom of their thumb</p>
@@ -25,7 +26,7 @@
 	<p>Repeat the last two steps until hand is wrapped neatly with fingers popping out check circulation and then wrap bandage around wrist a couple times fastening the end with tape or a safety pin.</p>
 </ul>
 </div>	
-
+<!--content and images-->
 
 <div id="footer">
 				<p><img src="Images/firstAid2.png" width="200px" height="200px"></p>
@@ -42,19 +43,10 @@
 	<li><a href="bandage.html">How to put on a bandage</a></li>
 	<li><a href="sprainBandage.html">How to bandage a sprain</a></li>
 	<li><a href="sling.html">How to make an arm sling</a></li>
-	<li><a href="epipen.html">How to use an EpiPen</a></li>
+	<li><a href="epipen.html">How to use an EpiPEN</a></li>
 </ul>	
 </div>
 </body>
-<!-- this puts the the image in the footer and then the two buttons for going back and forward on the pages. -->
-<script>
-$(document).ready(function() {
-    $('#accordion li.content').filter(':nth-child(n+4)').addClass('hide');
- 
-   $('ul').on('click','li.title',function() {
-      $(this).next().slideDown(200).siblings('li.content').slideUp(200);
-      })
-});
-<!-- this is the script that makes the accordion work. -->
-</script>
+
+
 </html>

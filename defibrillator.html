@@ -13,7 +13,7 @@
 </div>
 <!-- this is the header div which has the logo put in it it and the title fo the page -->
 
-<!-- this is the nav bar it has a link to each page and this pages link is just text in bold. -->
+
 
 <div id="section">
 <ul>
@@ -22,6 +22,7 @@
 	<p>If you have an AED turn it on it will give you a series of instructions, follow these until an ambulance arrives or someone more experienced can take over.</p>
 	<p>Take pads out of sealed packet and remove any clothing and wipe away sweat off the casualty’s chest.</p>
 	<p>Remove the backing paper and attach pads to chest.</p>
+	<img src="Images/AED.jpg" width="200px" height="300px">
 	<p>Place the first pad on their upper right side just below collarbone as shown on pad.</p>
 	<p>Then place second pad on their left side just below armpit in a horizontal fashion.</p>
 	<p>The AED will now start checking for a heart rhythm, make sure no one is touching the person and continue to follow the AED instructions.</p>
@@ -29,7 +30,7 @@
 	
 </ul>	
 </div>
-
+<!--content and images-->
 <div id="footer">
 				<p><img src="Images/firstAid2.png" width="200px" height="200px"></p>
 				
@@ -46,19 +47,9 @@
 	<li><a href="handBandage.html">How to bandage a hand</a></li>
 	<li><a href="sprainBandage.html">How to bandage a sprain</a></li>
 	<li><a href="sling.html">How to make an arm sling</a></li>
-	<li><a href="epipen.html">How to use an EpiPen</a></li>
+	<li><a href="epipen.html">How to use an EpiPEN</a></li>
 </ul>	
 </div>
 </body>
-<!-- this puts the the image in the footer and then the two buttons for going back and forward on the pages. -->
-<script>
-$(document).ready(function() {
-    $('#accordion li.content').filter(':nth-child(n+4)').addClass('hide');
- 
-   $('ul').on('click','li.title',function() {
-      $(this).next().slideDown(200).siblings('li.content').slideUp(200);
-      })
-});
-<!-- this is the script that makes the accordion work. -->
-</script>
+
 </html>
