@@ -16,7 +16,8 @@
   <author>
       Hamish Orr Ewing
   </author>
-  
+  <content src="index.html" />
+  <access origin="*" />
   <platform name="android" />
 
 </widget>
